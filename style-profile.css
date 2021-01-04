@@ -1,0 +1,72 @@
+body{
+    align-items: center;
+    background-image: url("bg-pattern-top.svg");
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    justify-content: center;
+    max-width: 1440px; 
+}
+
+.card{
+    background: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 100px 95px 90px 30px;
+    grid-template-areas: "image" "top" "info" "media";
+    height: 350px;
+    text-align: center; 
+}
+
+.top-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 350px;
+}
+
+
+.img-card img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.info-card h1{
+    font-size: 1em;
+}
+
+.info-card span{
+    font-weight: 400;
+    color: hsl(229, 23%, 23%);
+}
+
+.info-social-media{
+    display: flex;
+    font-size: .7em;
+    justify-content: space-around;
+}
+
+.info-social-media span{
+    font-weight: 400;
+    font-size: .5em;
+}
+
+
+
+.attribution{
+    margin-left: -370px;
+    position: absolute;
+    bottom: 0;
+    font-size: .8em;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(229, 23%, 23%);
+}
+
+
+
+
